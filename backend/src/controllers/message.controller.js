@@ -55,7 +55,7 @@ export const sendMessage = async (req, res) => {
       image: imageUrl,
     });
 
-    // await newMessage.save();
+    await newMessage.save();
 
     // const receiverSocketId = getReceiverSocketId(receiverId);
     // if (receiverSocketId) {
